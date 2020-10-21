@@ -1,0 +1,291 @@
+@font-face
+{
+	font-family: Montserrat-Regular;
+	src: local('Montserrat-Regular'), url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: Montserrat-SemiBold;
+	src: local('Montserrat-SemiBold'), url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: Montserrat-Medium;
+	src: local('Montserrat-Medium'), url('../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body
+{
+	background-color: #fafafa;
+	font-family: Montserrat-Regular;
+}
+a,button
+{
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+}
+a:hover,a:focus, button:hover,button:focus
+{
+	text-decoration: none;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+}
+h1
+{
+	font-family: Montserrat-SemiBold;
+	text-align: center;
+}
+.card
+{
+	border: none;
+	width: 100%;
+}
+.card-header
+{
+	width: 33%;
+	display: inline-block;
+	padding: 0;
+}
+.accordion-btn
+{
+	padding-top: 14px;
+	padding-bottom:14px;
+	width: 100%;
+} 
+.active, .accordion-btn:hover
+{
+	background-color: #e2e2e2;
+}
+.btn:focus
+{
+	box-shadow: unset;
+	outline: unset;
+}
+.btn-link:focus 
+{
+	text-decoration: none;
+}
+.btn-link:hover
+{
+	color: unset;
+	text-decoration: none;
+}
+.btn
+{	
+	color: black;
+	font-weight: 600;
+	font-size: 20px;
+}
+#accordion
+{
+	width: 79%;
+	margin: 0 auto;
+	border: 1px solid #eeeeee;
+	border-radius: 7px;
+}
+ul
+{
+	list-style: none;
+	text-align: center;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+ul li
+{
+	display: inline;
+}
+.card-body ul
+{
+	text-align: justify;
+}
+.card-body ul li
+{
+	border: 1px solid #e2e2e2;
+	display: block;
+	padding: 10px 10px;
+	margin-bottom: 8px !important;
+	margin: 0 auto;
+}
+.input-group-append 
+{
+	position: absolute;
+	right: 0;
+	top: -43px;
+}
+.datetimepicker-input
+{
+	border: none;
+	font-size: 12px;
+	padding: 0;
+}
+.datetimepicker-input:focus
+{
+	color: unset;
+	background-color: unset;
+	border-color: unset;
+	outline: unset;
+	box-shadow: unset;
+}
+.btn-submit
+{
+	background: black;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border-color: black;
+}
+.btn-submit:hover
+{
+	background-color: black;
+	border-color: black;
+}
+.btn-submit:focus
+{
+	background-color: black;
+	border-color: black;	
+}
+.link
+{
+	color: #777;
+	border-bottom: 1px solid;
+}
+a:hover 
+{
+	color: unset;
+	text-decoration: none;
+}
+.card-body p
+{
+	margin-bottom: 0;
+} 
+.title
+{
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+.date-time
+{
+	font-size: 30px;
+	font-weight: 600;
+	color: #777;
+	line-height: 1.2;
+}
+.ul
+{
+	margin: 10px 0 5px 0;
+}
+.ul li
+{
+	border: none !important;
+	display: unset !important;
+}
+.ul li:first-child
+{
+	padding-left: 0;
+}
+.link-btn
+{
+	color: black;
+	border: 1px solid;
+	border-radius: 4px;
+	padding: 6px 12px;
+	background-color: white;
+}
+.link-btn:hover
+{
+	color: white;
+	background-color: black;	
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.schedulelist li
+{
+	position: relative;
+}
+.schedulelist li:hover
+{
+	background-color: #f5f5f5;
+}
+.schedulelist li .date
+{
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+.bootstrap-datetimepicker-widget table td.day
+{
+	height: 30px;
+	line-height: 20px;
+	width: 20px;
+}
+#mySecondDiv
+{
+	position: relative;
+}
+#mySecondDiv #dateContinue
+{
+	float: right;
+	color: #fff;
+}
+#pills-appointment .card
+{
+	border:1px solid #ccc;
+	margin-bottom: 15px;
+}
+#pills-appointment .card .card-body .input-group
+{
+	position: absolute;
+	top: 22px;
+	right: 40px;
+	width: auto;
+}
+.tab-content
+{
+	padding: 20px;
+	border:1px solid #ccc;
+	border-top: 0;
+	background-color: #fff;
+}
+.tab-content>.active
+{
+	background-color: transparent;
+}
+.nav-pills .nav-link
+{
+	border-radius: 0;
+	padding: 15px;
+    font-size: 20px;
+}
+.nav-fill .nav-item .nav-link
+{
+	border:1px solid #ccc;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+	border:1px solid #007bff;
+}
+
+.btn_appointment:hover, .btn_appointment:focus
+{
+	background-color: #000;
+	color:#fff;
+}
+label.error
+{
+	font-size: 12px;
+	color: red;
+}
+a.disabled
+{
+    pointer-events: none;
+    color: #ccc;
+}
